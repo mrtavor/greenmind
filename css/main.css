@@ -187,3 +187,45 @@ h1 {
     right: -50px;
     top: -30px
 }
+
+.bestSellingPlants {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+    color: #1E1E1E;
+}
+
+.bestSellingPlants h3 {
+    font-size: 32px;
+}
+
+.plantsDesc {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #8F8F8F;
+}
+
+.btnSeeMore {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #C1DCDC;
+}
+
+.btnSeeMore img {
+    margin-left: 10px;
+}
+
+.plantCard {
+    font-size: 18px;
+}
+
+.price {
+    color: #8F8F8F;
+}
