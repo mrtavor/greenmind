@@ -191,8 +191,12 @@ h1 {
     color: #1E1E1E;
 }
 
-.bestSellingPlants h3 {
+h3 {
     font-size: 32px;
+}
+
+h5 {
+    font-size: 18px;
 }
 
 .plantsDesc {
@@ -214,6 +218,30 @@ h1 {
     background-color: #C1DCDC;
 }
 
+.btnSeeMore:hover {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #B4D2D2;
+}
+
+.btnSeeMore:active {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #A8CCCC;
+}
+
 .btnSeeMore img {
     margin-left: 10px;
 }
@@ -224,4 +252,56 @@ h1 {
 
 .price {
     color: #8F8F8F;
+}
+
+.aboutUs {
+    margin-top: 112px;
+    font-size: 18px;
+}
+
+.aboutUs p {
+    color: #8F8F8F;
+}
+
+.titleText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bestPoints {
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+
+.cardPoint {
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.iconCircle {
+    border-radius: 50%;
+    background-color: #C1DCDC;
+    display: flex;
+    padding: 28px;
+}
+
+.iconCircle img {
+    height: 40px;
+    width: 40px;
+}
+
+.textsPoint {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.textsPoint p {
+    text-align: center;
 }
