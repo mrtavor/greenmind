@@ -4,16 +4,23 @@
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrap {
+    width: 100%;
     margin: 0 auto;
     padding: 0;
-    width: 1250px;
-    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    margin-top: 48px;
 }
 
 .nav {
     display: flex;
-    align-items: center;
-    margin-top: 48px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 #logo {
@@ -44,21 +51,33 @@ body {
     margin-left: 48px;
 }
 
-.hero {
-    background-color: #C1DCDC;
-    max-height: 512px;
-    border-radius: 24px;
+.heroSection {
     margin-top: 48px;
-    display: flex;
-    justify-content: space-between;
-    padding: 48px 72px 0px 48px
+}
 
+.hero {
+    display: flex;
+    max-width: 1200px;
+    height: 512px;
+    margin: 0 auto;
+    background-color: #C1DCDC;
+    border-radius: 24px;
+    justify-content: space-between;
+    /* padding: 48px 72px 0px 48px */
 }
 
 h1 {
     font-size: 64px;
     font-weight: 900;
     line-height: 1;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 18px;
 }
 
 .heroAdvaCont {
@@ -184,19 +203,17 @@ h1 {
     top: -30px
 }
 
+.bestSellSection {
+    padding-top: 98px;
+}
+
 .bestSellingPlants {
-    margin-top: 96px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     color: #1E1E1E;
-}
-
-h3 {
-    font-size: 32px;
-}
-
-h5 {
-    font-size: 18px;
 }
 
 .plantsDesc {
@@ -254,8 +271,13 @@ h5 {
     color: #8F8F8F;
 }
 
-.aboutUs {
+.aboutUsSection {
     margin-top: 112px;
+}
+
+.aboutUs {
+    max-width: 1200px;
+    margin: 0 auto;
     font-size: 18px;
 }
 
@@ -305,4 +327,68 @@ h5 {
 .textsPoint p {
     text-align: center;
     margin-top: 12px;
+}
+
+.categoriesMainSection {
+    margin-top: 165px;
+    font-size: 18px;
+}
+
+.textMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textMain p {
+    color: #8F8F8F;
+}
+
+.categoriesMainSectionTwo {
+    background-color: #C1DCDC;
+    margin-top: 96px;
+    padding: 48px;
+}
+
+.categoriesMain {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.allCards {
+    display: flex;
+    gap: 12px;
+}
+
+.categoriesCards {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.categoriesCards p {
+    text-align: center;
+    color: #8F8F8F;
+    
+}
+
+.categoriesCards img {
+    border-radius: 12px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.btnExplore {
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-size: 18px;
 }
